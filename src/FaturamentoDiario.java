@@ -30,8 +30,9 @@ public class FaturamentoDiario {
             }
         }
 
-        System.out.println("Exercício 3 - Menor valor de faturamento: " + menorValor);
-        System.out.println("Exercício 3 - Maior valor de faturamento: " + maiorValor);
-        System.out.println("Exercício 3 - Número de dias com faturamento acima da média mensal: " + diasAcimaDaMedia);
+        System.out.println("\n3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:\n");
+        System.out.println("Menor valor de faturamento: " + menorValor);
+        System.out.println("Maior valor de faturamento: " + maiorValor);
+        System.out.println("Número de dias com faturamento acima da média mensal: " + diasAcimaDaMedia + "\n");
     }
 }
