@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public void verificarFibonacci(Scanner scanner) {
-        System.out.print("\nInforme um número para verificar se pertence à sequência de Fibonacci: ");
         int numero = scanner.nextInt();
         scanner.nextLine();
         int a = 0, b = 1, c = 0;
