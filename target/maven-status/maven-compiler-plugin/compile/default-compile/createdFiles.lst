@@ -1,7 +1,9 @@
-quests\Fibonacci.class
+andrevsc\constants\Constants.class
+andrevsc\quests\SomaLaco.class
 andrevsc\App.class
-quests\FaturamentoDiario.class
-quests\PercentualFaturamento.class
-quests\SomaLaco.class
-constants\Constants.class
-quests\InversaoString.class
+andrevsc\quests\PercentualFaturamento.class
+andrevsc\quests\Fibonacci.class
+andrevsc\quests\FaturamentoDiario.class
+andrevsc\quests\InversaoString.class
+andrevsc\quests\Faturamento.class
+andrevsc\quests\FaturamentoDiario$1.class
