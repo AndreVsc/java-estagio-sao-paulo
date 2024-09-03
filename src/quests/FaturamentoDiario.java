@@ -2,12 +2,13 @@ package quests;
 import java.util.List;
 
 public class FaturamentoDiario {
+    private List<Double> faturamentos = List.of(2000.0, 0.0, 2500.0, 1800.0, 0.0, 0.0, 2700.0, 3000.0, 0.0, 2300.0);
+    private double menorValor = Double.MAX_VALUE;
+    private double maiorValor = Double.MIN_VALUE;
+    private double soma = 0;
+    private int diasComFaturamento = 0;
+    
     public void calcularFaturamento() {
-        List<Double> faturamentos = List.of(2000.0, 0.0, 2500.0, 1800.0, 0.0, 0.0, 2700.0, 3000.0, 0.0, 2300.0);
-        double menorValor = Double.MAX_VALUE;
-        double maiorValor = Double.MIN_VALUE;
-        double soma = 0;
-        int diasComFaturamento = 0;
 
         for (double faturamento : faturamentos) {
             if (faturamento > 0) {

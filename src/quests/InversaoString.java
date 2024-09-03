@@ -2,9 +2,10 @@ package quests;
 import java.util.Scanner;
 
 public class InversaoString {
+    private String original = "teste";
+    private String invertida = "";
+    
     public void inverterString(Scanner scanner) {
-        String original = "teste";
-        String invertida = "";
         
         System.out.print("\nPalavra original : " + original);
         

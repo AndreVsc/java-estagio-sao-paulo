@@ -1,7 +1,9 @@
 package quests;
 public class SomaLaco {
+    private int INDICE = 13;
+    private int SOMA = 0;
+    private int K = 0;
     public void calcularSoma() {
-        int INDICE = 13, SOMA = 0, K = 0;
         while (K < INDICE) {
             K = K + 1;
             SOMA = SOMA + K;
