@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Fibonacci {
     private int numero;
+    
     public void verificarFibonacci(Scanner scanner) {
-        int numerocaneado = scanner.nextInt();
-        setNumero(numerocaneado);
+        numero = scanner.nextInt();
         scanner.nextLine();
         int a = 0, b = 1, c = 0;
         while (c < numero) {
@@ -18,9 +18,5 @@ public class Fibonacci {
         } else {
             System.out.println("\nO número " + numero + " não pertence à sequência de Fibonacci.");
         }
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
     }
 }

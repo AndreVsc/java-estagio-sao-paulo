@@ -7,9 +7,8 @@ public class FaturamentoDiario {
     private double maiorValor = Double.MIN_VALUE;
     private double soma = 0;
     private int diasComFaturamento = 0;
-    
-    public void calcularFaturamento() {
 
+    public void calcularFaturamento() {
         for (double faturamento : faturamentos) {
             if (faturamento > 0) {
                 if (faturamento < menorValor) {
@@ -22,16 +21,13 @@ public class FaturamentoDiario {
                 diasComFaturamento++;
             }
         }
-
         double mediaMensal = soma / diasComFaturamento;
         int diasAcimaDaMedia = 0;
-
         for (double faturamento : faturamentos) {
             if (faturamento > mediaMensal) {
                 diasAcimaDaMedia++;
             }
         }
-
         System.out.println("Menor valor de faturamento: " + menorValor);
         System.out.println("Maior valor de faturamento: " + maiorValor);
         System.out.println("Número de dias com faturamento acima da média mensal: " + diasAcimaDaMedia + "\n");

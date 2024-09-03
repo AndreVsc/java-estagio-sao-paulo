@@ -7,9 +7,7 @@ public class PercentualFaturamento {
     private double outros = 19849.53;
 
     public void calcularPercentual() {
-        
         double total = sp + rj + mg + es + outros;
-        
         System.out.printf("\nSP  R$67.836,43 | Percentual de SP: %.2f%%\n", (sp / total) * 100);
         System.out.printf("RJ  R$36.678,66 | Percentual de RJ: %.2f%%\n", (rj / total) * 100);
         System.out.printf("MG  R$29.229,88 | Percentual de MG: %.2f%%\n", (mg / total) * 100);
