@@ -1,4 +1,4 @@
-package constants;
+package andrevsc.constants;
 public class Constants {
     public void exercicio1(){
         System.out.println("\n1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;\n" + "Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }\n" + "Imprimir(SOMA);\n" + "Ao final do processamento, qual será o valor da variável SOMA?\n");

@@ -1,4 +1,4 @@
-package quests;
+package andrevsc.quests;
 import java.util.Scanner;
 
 public class Fibonacci {

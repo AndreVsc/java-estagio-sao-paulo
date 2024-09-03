@@ -1,8 +1,9 @@
-package quests;
+package andrevsc.quests;
+import java.util.Arrays;
 import java.util.List;
 
 public class FaturamentoDiario {
-    private List<Double> faturamentos = List.of(2000.0, 0.0, 2500.0, 1800.0, 0.0, 0.0, 2700.0, 3000.0, 0.0, 2300.0);
+    private List<Double> faturamentos = Arrays.asList(2000.0, 0.0, 2500.0, 1800.0, 0.0, 0.0, 2700.0, 3000.0, 0.0, 2300.0);
     private double menorValor = Double.MAX_VALUE;
     private double maiorValor = Double.MIN_VALUE;
     private double soma = 0;

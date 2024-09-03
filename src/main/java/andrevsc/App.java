@@ -1,20 +1,29 @@
+package andrevsc;
+
 import java.util.Scanner;
 
-import constants.Constants;
-import quests.FaturamentoDiario;
-import quests.Fibonacci;
-import quests.InversaoString;
-import quests.PercentualFaturamento;
-import quests.SomaLaco;
+/**
+ * @autor André Victor
+ * @version 1.0
+ * @since 2024
+ */
 
-public class App {
-    public static void main(String[] args) throws Exception {
+import andrevsc.constants.Constants;
+import andrevsc.quests.FaturamentoDiario;
+import andrevsc.quests.Fibonacci;
+import andrevsc.quests.InversaoString;
+import andrevsc.quests.PercentualFaturamento;
+import andrevsc.quests.SomaLaco;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
         Scanner scanner = new Scanner(System.in);
         Constants questions = new Constants();
         questions.separation();
 
         // Exercicio 1
-
         questions.exercicio1();
         SomaLaco somaLaco = new SomaLaco();
         somaLaco.calcularSoma();
