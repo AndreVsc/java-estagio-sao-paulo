@@ -34,9 +34,9 @@ O projeto está organizado da seguinte forma:
 
 4.  Execute o projeto usando o comando:
 
-´´´powershell
+```powershell
     java -cp bin App
-´´´
+```
 
 ## Caso Não Seja Possível Compilar o Código
 
