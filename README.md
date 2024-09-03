@@ -1,40 +1,81 @@
-# java-estagio-sao-paulo
+# Projeto de Exercícios de Programação
 
-1. 
-> Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;
-Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
-Imprimir(SOMA);
-Ao final do processamento, qual será o valor da variável SOMA?
+Este projeto contém uma série de exercícios de programação em Java, organizados em diferentes classes. Cada exercício aborda um problema específico e fornece uma solução implementada em Java.
 
-2. 
-> Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
+## Estrutura do Projeto
 
-IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
+O projeto está organizado da seguinte forma:
 
-3. 
-> Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
-• O menor valor de faturamento ocorrido em um dia do mês;
-• O maior valor de faturamento ocorrido em um dia do mês;
-• Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+- **constants**: Contém a classe `Constants` que exibe as descrições dos exercícios.
+- **quests**: Contém as classes que implementam as soluções dos exercícios.
+  - `FaturamentoDiario.java`: Calcula o menor, maior valor de faturamento diário e o número de dias com faturamento acima da média.
+  - `Fibonacci.java`: Verifica se um número pertence à sequência de Fibonacci.
+  - `InversaoString.java`: Inverte uma string.
+  - `PercentualFaturamento.java`: Calcula o percentual de faturamento de diferentes estados.
+  - `SomaLaco.java`: Calcula a soma de uma sequência de números.
+- **App.java**: Classe principal que executa todos os exercícios.
 
-IMPORTANTE:
-a. Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
-b. Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+## Como Usar
 
-4. 
+### Pré-requisitos
 
-> Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
-• SP – R$67.836,43
-• RJ – R$36.678,66
-• MG – R$29.229,88
-• ES – R$27.165,48
-• Outros – R$19.849,53
+- Java Development Kit (JDK) instalado.
+- Um ambiente de desenvolvimento integrado (IDE) como o Visual Studio Code ou IntelliJ IDEA.
 
-Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.  
+**Compilação e Execução**
 
-5. 
-> Escreva um programa que inverta os caracteres de um string.
+1. Clone o repositório para o seu ambiente local.
+2. Navegue até o diretório do projeto.
+3. Compile o projeto usando o comando:
 
-IMPORTANTE:
-a. Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
-b. Evite usar funções prontas, como, por exemplo, reverse;" 
+```powershell
+    javac -d bin -sourcepath src src/App.java
+````
+
+4.  Execute o projeto usando o comando:
+
+´´´powershell
+    java -cp bin App
+´´´
+
+## Caso Não Seja Possível Compilar o Código
+
+Se você encontrar problemas ao compilar o código, verifique os seguintes pontos:
+
+- Certifique-se de que o JDK está corretamente instalado e configurado no seu PATH.
+- Verifique se o diretório `src` contém todos os arquivos `.java` necessários.
+- Certifique-se de que você está executando os comandos de compilação e execução no diretório correto.
+
+Se os problemas persistirem, consulte a documentação do JDK ou procure ajuda em fóruns de programação.
+
+## Exercícios
+
+### Exercício 1
+
+Calcula a soma de uma sequência de números.
+
+### Exercício 2
+
+Verifica se um número pertence à sequência de Fibonacci.
+
+### Exercício 3
+
+Calcula o menor, maior valor de faturamento diário e o número de dias com faturamento acima da média.
+
+### Exercício 4
+
+Calcula o percentual de faturamento de diferentes estados.
+
+### Exercício 5
+
+Inverte uma string.
+
+## Contato
+
+Para mais informações ou dúvidas, entre em contato com o desenvolvedor do projeto.
+
+---
+
+Este projeto foi desenvolvido como parte de uma série de exercícios de programação para aprimorar habilidades em Java.
+
+Andre-Victor-Castro
