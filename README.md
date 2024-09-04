@@ -79,10 +79,6 @@ Para mais informações ou dúvidas, entre em contato com o desenvolvedor do pro
 
 ---
 
-Este projeto foi desenvolvido como parte de uma série de exercícios de programação para aprimorar habilidades em Java.
-
-## Licença
-
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Andre-Victor-Castro
