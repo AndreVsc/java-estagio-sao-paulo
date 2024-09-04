@@ -1,4 +1,5 @@
 package andrevsc.quests;
+
 import java.util.Scanner;
 
 public class InversaoString {
