@@ -32,13 +32,13 @@ O projeto está organizado da seguinte forma:
 3. Compile o projeto usando o Maven com o comando:
 
 ```powershell
-    mvn clean
+    mvn clean compile
 ```
 
 4.Execute o projeto usando o comando:
 
 ```powershell
-    mvn compile exec:java
+    mvn exec:java
 ```
 ## Caso Não Seja Possível Compilar o Código
 
