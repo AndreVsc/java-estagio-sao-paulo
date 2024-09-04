@@ -38,7 +38,7 @@ O projeto está organizado da seguinte forma:
 4.Execute o projeto usando o comando:
 
 ```powershell
-    mvn exec:java -Dexec.mainClass="andrevsc.App"
+    mvn clean compile exec:java
 ```
 ## Caso Não Seja Possível Compilar o Código
 
