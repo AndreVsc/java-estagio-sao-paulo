@@ -15,10 +15,8 @@ import andrevsc.quests.InversaoString;
 import andrevsc.quests.PercentualFaturamento;
 import andrevsc.quests.SomaLaco;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main( String[] args ) {
         Scanner scanner = new Scanner(System.in);
         Constants questions = new Constants();
         questions.separation();
