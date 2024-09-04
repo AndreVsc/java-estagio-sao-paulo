@@ -1,4 +1,5 @@
 package andrevsc.quests;
+
 public class PercentualFaturamento {
     private double sp = 67836.43;
     private double rj = 36678.66;
