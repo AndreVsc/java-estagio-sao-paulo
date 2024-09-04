@@ -1,4 +1,5 @@
 package andrevsc.quests;
+
 public class Faturamento {
     private int dia;
     private double valor;
